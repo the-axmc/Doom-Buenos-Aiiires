@@ -1,24 +1,19 @@
 {
   "name": "doom-buenos-aiiires",
+  "private": true,
+  "type": "module",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "dcl build",
     "start": "dcl start",
+    "build": "dcl build",
     "deploy": "dcl deploy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "@dcl/sdk": "^7.11.2"
+    "@dcl/sdk": "latest",
+    "@dcl/js-runtime": "7.11.2"
   },
   "devDependencies": {
-    "@dcl/sdk-commands": "^7.11.2",
-    "@types/node": "^24.9.2",
-    "typescript": "^5.9.3"
+    "@dcl/sdk-commands": "latest",
+    "typescript": "^5.6.3"
   }
 }

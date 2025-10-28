@@ -1,0 +1,14 @@
+{
+  "display": {
+    "title": "Doom: Buenos A(iii)res",
+    "description": "Devconnect is drawing the whole web3 crew to Buenos Aires, but a Halloween glitch (“Entropy Leak”) is turning attendees into voxel statues—more pixelated every minute. You must collect Anti-Entropy Shards to stabilize your avatar, fix the Buenos A(iii)res Beacon, and open a portal to Devconnect. Fail, and you’re frozen… FOR-E-VA 👻"
+  },
+  "owner": "andlopvic.eth",
+  "contact": { "name": "axmc", "email": "andrea@axmc.xyz" },
+  "main": "bin/index.js",
+  "runtimeVersion": "7",
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  }
+}
