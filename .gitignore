@@ -1,0 +1,47 @@
+# Ignore build output
+
+dist/
+build/
+out/
+
+# Ignore dependency folders
+
+node_modules/
+
+# Ignore all source design/original assets
+
+**/\*.blend
+**/_.psd
+\*\*/_.ai
+**/\*.svg
+**/_.raw
+\*\*/_.xcf
+**/\*.kra
+**/\*.aep
+
+# Ignore large audio / video sources (only keep optimized .ogg in /assets)
+
+**/\*.wav
+**/_.aiff
+\*\*/_.mp3
+**/\*.mp4
+**/\*.mov
+
+# Ignore exports / zips / temp archives
+
+**/\*.zip
+**/_.rar
+\*\*/_.7z
+
+# Ignore editor/system garbage
+
+.DS_Store
+Thumbs.db
+
+# Optional: ignore test / unused folders
+
+test/
+tests/
+backup/
+drafts/
+raw_assets/
